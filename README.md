@@ -10,7 +10,7 @@ Currently, it contains only external resources we are adding to the server
 - nos : Nitrous Oxide, taken from [insert credits here]
 - playerblip : lua visible blips of all online players on minimap/map
 - playerlist : lua list of all players online
-- vMenu : vmenu mod, only changes being to `vMenu/config/addons.json` to load new cars
+- vMenu : vmenu mod, only changes being to `vMenu/config/addons.json` to load custom car models
 
 ## To Connect to server:
  - Launch [FiveM](https://fivem.net/)
