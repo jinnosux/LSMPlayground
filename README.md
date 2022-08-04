@@ -17,3 +17,8 @@ Currently, it contains only external resources we are adding to the server
  - Press F8 to open console
  - type `connect lsmplayground.com`
  - voila
+
+## When Connected:
+ - type /help (credits - moviEmaker)
+ - press [M] to access vMenu (and spawn cars/peds, teleport, change weather etc)
+ - use /s to enable/disable speedometer
