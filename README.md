@@ -27,7 +27,7 @@ Currently, it contains only external resources we are adding to the server
 ---
 
 credits:
-LSM Gang
-Rockstar Games devs (fuck you TakeTwo Interactive)
-All the devs who work on FiveM
-All the devs who created vMenu and other open-source mods we are currently using
+LSM Gang <br />
+Rockstar Games devs (fuck you TakeTwo Interactive)<br />
+All the devs who work on FiveM<br />
+All the devs who created vMenu and other open-source mods we are currently using<br />
