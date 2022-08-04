@@ -19,7 +19,7 @@ Currently, it contains only external resources we are adding to the server
  - voila
 
 ## When Connected:
- - type /help (credits - moviEmaker)
+ - type [/help] (credits - moviEmaker)
  - press [M] to access vMenu (and spawn cars/peds, teleport, change weather etc)
- - use /s to enable/disable speedometer
+ - use [/s] to enable/disable speedometer
  - have fun :)
