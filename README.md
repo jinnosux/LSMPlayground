@@ -26,7 +26,7 @@ Currently, it contains only external resources we are adding to the server
 
 ---
 
-credits:
+credits: <br />
 LSM Gang <br />
 Rockstar Games devs (fuck you TakeTwo Interactive)<br />
 All the devs who work on FiveM<br />
