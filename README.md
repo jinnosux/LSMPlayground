@@ -23,3 +23,11 @@ Currently, it contains only external resources we are adding to the server
  - press [M] to access vMenu (and spawn cars/peds, teleport, change weather etc)
  - use [/s] to enable/disable speedometer
  - have fun :)
+
+---
+
+credits:
+LSM Gang
+Rockstar Games devs (fuck you TakeTwo Interactive)
+All the devs who work on FiveM
+All the devs who created vMenu and other open-source mods we are currently using
