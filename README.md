@@ -33,6 +33,7 @@ Currently, it contains only external resources we are adding to the server
 
 Credits: <br />
 LSM Gang <br />
+Cops'n'Robbers : NextGeneration ([damn good](https://cnr.ng) FiveM server) <br />
 Rockstar Games devs (fuck you TakeTwo Interactive)<br />
 All the devs who work on FiveM<br />
 All the devs who created vMenu and other open-source mods we are currently using<br />
