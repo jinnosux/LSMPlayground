@@ -7,7 +7,9 @@ Currently, it contains only external resources we are adding to the server
 
 ## Resources:
 - CarComand : simple lua script to spawn cars (usage: /car [car name])
+- custom_cars : about ~130 random car models
 - EasyAdmin : simple Admin Dashboard (usage: /easyadmin) - currently useless. deprecated.
+- help : moviemaker's script (usage: /help)
 - hologramspeed : best speedometer in the world. a bit buggy though, needs further fixing
 - nos : Nitrous Oxide, taken from [insert credits here]
 - playerblip : lua visible blips of all online players on minimap/map
