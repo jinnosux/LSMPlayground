@@ -23,12 +23,13 @@ Currently, it contains only external resources we are adding to the server
 ## When Connected:
  - type [/help] (credits - moviEmaker)
  - press [M] to access vMenu (and spawn cars/peds, teleport, change weather etc)
+ - press [alt] for nitrous
  - use [/s] to enable/disable speedometer
  - have fun :)
 
 ---
 
-credits: <br />
+Credits: <br />
 LSM Gang <br />
 Rockstar Games devs (fuck you TakeTwo Interactive)<br />
 All the devs who work on FiveM<br />
