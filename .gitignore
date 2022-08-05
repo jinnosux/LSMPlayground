@@ -3,13 +3,14 @@ server.cfg
 secrets.cfg
 
 # fivem native resources
-resources/[gamemodes]
-resources/[gameplay]
-resources/[local]
-resources/[managers]
-resources/[system]
-resources/[test]
+resources/\[gamemodes\]
+resources/\[gameplay\]
+resources/\[local\]
+resources/\[managers\]
+resources/\[system\]
+resources/\[test\]
 
 # too heavy, ~7gb
  resources/custom_cars
+ cache
  
