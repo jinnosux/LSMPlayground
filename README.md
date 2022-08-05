@@ -3,6 +3,7 @@
 This is a repo with resources for FiveM server `LSMplayground.com`
 Currently, it contains only external resources we are adding to the server
 
+
 ## Resources:
 - CarComand : simple lua script to spawn cars (usage: /car [car name])
 - EasyAdmin : simple Admin Dashboard (usage: /easyadmin) - currently useless. deprecated.
