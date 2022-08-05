@@ -1,0 +1,14 @@
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\bin\Debug\teleport.net.dll
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\bin\Debug\teleport.net.pdb
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\bin\Debug\CitizenFX.Core.dll
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\bin\Debug\System.Reflection.Metadata.dll
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\bin\Debug\System.Collections.Immutable.dll
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\bin\Debug\MsgPack.dll
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\bin\Debug\CitizenFX.Core.pdb
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\bin\Debug\CitizenFX.Core.xml
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\bin\Debug\MsgPack.xml
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\obj\Debug\teleport.csproj.AssemblyReference.cache
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\obj\Debug\teleport.csproj.CoreCompileInputs.cache
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\obj\Debug\teleport.csproj.CopyComplete
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\obj\Debug\teleport.net.dll
+E:\LSMPlayground-main\resources\teleport\teleport\teleport\obj\Debug\teleport.net.pdb
