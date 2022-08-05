@@ -12,5 +12,5 @@ resources/\[test\]
 
 # too heavy, ~7gb
  resources/custom_cars
- cache
+ cache/*
  
