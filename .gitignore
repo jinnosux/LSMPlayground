@@ -1,6 +1,7 @@
 # configs
 server.cfg
 secrets.cfg
+server.cfg.bkp
 
 # fivem native resources
 resources/\[gamemodes\]
@@ -11,6 +12,5 @@ resources/\[system\]
 resources/\[test\]
 
 # too heavy, ~7gb
- resources/custom_cars
- cache/*
- 
+resources/custom_cars
+cache
