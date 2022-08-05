@@ -11,7 +11,7 @@ Currently, it contains only external resources we are adding to the server
 - EasyAdmin : simple Admin Dashboard (usage: /easyadmin) - currently useless. deprecated.
 - help : moviemaker's script (usage: /help)
 - hologramspeed : best speedometer in the world. a bit buggy though, needs further fixing
-- nos : Nitrous Oxide, taken from [insert credits here]
+- [nos](resources/nos/README.md) : Nitrous Oxide Whippits needs baloons for consuming
 - playerblip : lua visible blips of all online players on minimap/map
 - playerlist : lua list of all players online
 - vMenu : vmenu mod, only changes being to `vMenu/config/addons.json` to load custom car models
