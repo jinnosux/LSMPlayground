@@ -1,0 +1,42 @@
+[
+	{
+		"useBackgroundColour" : "false",
+		"backgroundColour" : "0,0,0",
+		"useBackgroundImage" : "true",
+		"backgroundImagePath" : "images/backgroundImg8.jpg",
+		"useTextColour" : "false",
+		"textColour" : "0,0,0",
+		"useBoldText" : "false",
+		"serverTitle" : "LSM Playground",
+		"playAudioInBackground" : "false",
+		"YTVideoID" : "HPc8QMycGno",
+		"videoVolume" : "5"
+	},
+	{
+		"rule1" : "/fart",
+		"rule2" : "",
+		"rule3" : "",
+		"rule4" : "",
+		"rule5" : "",
+		"rule6" : "",
+		"rule7" : ""
+	},
+	{
+		"servers1" : "Website: LSMPlayground.com",
+		"servers2" : "",
+		"servers3" : "",
+		"servers4" : "",
+		"servers5" : "",
+		"servers6" : "",
+		"servers7" : ""
+	},
+	{
+		"content1" : "",
+		"content2" : "",
+		"content3" : "",
+		"content4" : "",
+		"content5" : "",
+		"content6" : "",
+		"content7" : ""
+	}
+]
