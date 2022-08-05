@@ -1,8 +1,9 @@
 # LSM Playground Fivem Server
 
-This is a repo with resources for FiveM server `LSMplayground.com`
+This is a repo with resources for FiveM server `LSMplayground.com`<br />
 Currently, it contains only external resources we are adding to the server
-
+<br />
+[Ideas for future scripts](./IDEAS.md)
 
 ## Resources:
 - CarComand : simple lua script to spawn cars (usage: /car [car name])
