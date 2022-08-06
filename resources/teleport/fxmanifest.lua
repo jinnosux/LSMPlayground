@@ -10,3 +10,5 @@ server_scripts {
 client_scripts {
     'client.lua',
 }
+
+-- hello --
