@@ -32,7 +32,7 @@ namespace teleport
 			{
 				if (source > 0) 
 				{
-					Vector3 x = (player.Position + PlayerPedId);
+					Vector3 x = (player.Position = PlayerPedId);
 				}
 				
 				else
@@ -40,7 +40,7 @@ namespace teleport
 					Debug.WriteLine("Player not found.");
 				}
 
-			}), true);
+			}), false);
 		}
 
 	}
