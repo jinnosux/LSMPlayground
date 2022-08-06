@@ -10,7 +10,7 @@ RegisterCommand('tp', function(_, args)
         return
     end
 
-    TriggerServerEvent('ch_teleporter:teleport', targetId)
+    TriggerServerEvent('ch_teleporter:tp', targetId)
 end)
 
 -- Command to bring a player to us
