@@ -2,11 +2,11 @@
 
 local showPlayerBlips = false
 local ignorePlayerNameDistance = false
-local disPlayerNames = 15
+local disPlayerNames = 20
 local playerSource = 0
 
 function DrawText3D(x,y,z, text) -- some useful function, use it if you want!
-    local onScreen,_x,_y=World3dToScreen2d(x,y,z)
+    local onScreen,_x,_y=World3dToScreen2d(x,y,z+0.3)
     local px,py,pz=table.unpack(GetGameplayCamCoords())
     local dist = GetDistanceBetweenCoords(px,py,pz, x,y,z, 1)
 
@@ -15,10 +15,10 @@ function DrawText3D(x,y,z, text) -- some useful function, use it if you want!
     local scale = scale*fov
     
     if onScreen then
-        SetTextScale(0.0*scale, 0.55*scale)
+        -- SetTextScale(0.0*scale, 0.55*scale)
         SetTextFont(0)
         SetTextProportional(1)
-        -- SetTextScale(0.0, 0.55)
+        SetTextScale(0, 0.4)
         SetTextColour(255, 255, 255, 255)
         SetTextDropshadow(0, 0, 0, 0, 255)
         SetTextEdge(2, 0, 0, 0, 150)
@@ -46,12 +46,14 @@ Citizen.CreateThread(function()
                 distance = math.floor(GetDistanceBetweenCoords(x1,  y1,  z1,  x2,  y2,  z2,  true))
 
                 if(ignorePlayerNameDistance) then
-                    DrawText3D(x2, y2, z2+1, GetPlayerServerId(id) .. " | " .. string.sub(GetPlayerName(id), 1, 15))
+                    -- DrawText3D(x2, y2, z2+1, GetPlayerServerId(id) .. " | " .. string.sub(GetPlayerName(id), 1, 15))
+		    DrawText3D(x2, y2, z2+1, " [" .. GetPlayerServerId(id) .. "] " .. string.sub(GetPlayerName(id), 1, 15))
                 end
 
                 if ((distance < disPlayerNames)) then
                     if not (ignorePlayerNameDistance) then
-                        DrawText3D(x2, y2, z2+1, GetPlayerServerId(id) .. " | " .. string.sub(GetPlayerName(id), 1, 15))
+			DrawText3D(x2, y2, z2+1, " [" .. GetPlayerServerId(id) .. "] " .. string.sub(GetPlayerName(id), 1, 15))
+                        -- DrawText3D(x2, y2, z2+1, GetPlayerServerId(id) .. " | " .. string.sub(GetPlayerName(id), 1, 15))
                     end
                 end  
             end
