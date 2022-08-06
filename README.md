@@ -37,3 +37,4 @@ Cops'n'Robbers : NextGeneration ([damn good](https://cnr.ng) FiveM server) <br /
 Rockstar Games devs (fuck you TakeTwo Interactive)<br />
 All the devs who work on FiveM<br />
 All the devs who created vMenu and other open-source mods we are currently using<br />
+Elon Musk, I guess ? idk 
