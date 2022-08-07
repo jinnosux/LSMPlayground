@@ -1,5 +1,5 @@
 -- Command to go to another player
-RegisterCommand('tp', function(_, args)
+RegisterCommand('tp', function(source, args)
     local targetId = args[1]
 
     if not targetId then
@@ -14,7 +14,7 @@ RegisterCommand('tp', function(_, args)
 end)
 
 -- Command to bring a player to us
-RegisterCommand('getplayer', function(_, args)
+RegisterCommand('getplayer', function(source, args)
     local targetId = args[1]
 
     if not targetId then
