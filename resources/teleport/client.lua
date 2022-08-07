@@ -6,7 +6,6 @@ RegisterCommand('tp', function(source, args)
         TriggerEvent('chat:addMessage', {
             args = { 'Please provide a target ID.', },
         })
-
         return
     end
 
@@ -21,7 +20,6 @@ RegisterCommand('getplayer', function(source, args)
         TriggerEvent('chat:addMessage', {
             args = { 'Please provide a target ID.', },
         })
-
         return
     end
 

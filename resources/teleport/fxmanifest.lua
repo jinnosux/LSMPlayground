@@ -7,4 +7,3 @@ decription 'Teleport to another player with /tp [player id]. Also you can telepo
 server_script 'server.lua'
 
 client_script 'client.lua'
-
