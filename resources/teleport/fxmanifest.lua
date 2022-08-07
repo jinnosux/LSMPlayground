@@ -4,12 +4,10 @@ lua54 'yes'
 author 'Fetu'
 decription 'Teleport to another player with /tp [player id]. Also you can teleport player to you with /getplayer [player id].'
 
-server_scripts {
-    'server.lua',
+server_script {
+    'server.lua'
 }
 
-client_scripts {
-    'client.lua',
+client_script {
+    'client.lua'
 }
-
--- hello --
