@@ -6,7 +6,7 @@ RegisterNetEvent('ch_teleporter:tp', function(targetId)
 
     if targetPed <= 0 then
         TriggerClientEvent('chat:addMessage', playerId, {
-            args = { 'Player' .. targetId .. ' doesn\'t seem to exist.', },
+            args = { 'Player ' .. targetId .. ' doesn\'t seem to exist.', },
         })
 
         return
@@ -28,7 +28,7 @@ RegisterNetEvent('ch_teleporter:getplayer', function(targetId)
 
     if targetPed <= 0 then
         TriggerClientEvent('chat:addMessage', playerId, {
-            args = { 'Player' .. targetId .. ' doesn\'t seem to exist.', },
+            args = { 'Player ' .. targetId .. ' doesn\'t seem to exist.', },
         })
 
         return
