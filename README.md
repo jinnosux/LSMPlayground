@@ -1,20 +1,22 @@
 # LSM Playground Fivem Server
 
 This is a repo with resources for FiveM server `LSMplayground.com`<br />
-Currently, it contains only external resources we are adding to the server
+Currently, it contains only external resources we are adding to the server<br />
+Our goal is to practice coding and other aspects of running a FiveM server.<br />
+
 <br />
 [Ideas for future scripts](./IDEAS.md)
 
 ## Resources:
 - CarComand : simple lua script to spawn cars (usage: /car [car name])
 - custom_cars : about ~130 random car models
-- EasyAdmin : simple Admin Dashboard (usage: /easyadmin) - currently useless. deprecated.
 - help : moviemaker's script (usage: /help)
 - hologramspeed : best speedometer in the world. a bit buggy though, needs further fixing
 - [nos](resources/nos/README.md) : Nitrous Oxide Whippits needs baloons for consuming
-- playerblip : lua visible blips of all online players on minimap/map
-- playerlist : lua list of all players online
+- playerblip : visible blips of all online players on minimap/map
+- playerlist : list of all players online
 - vMenu : vmenu mod, only changes being to `vMenu/config/addons.json` to load custom car models
+- weapon_loadout : script to give player all weapons (usage: /ws all)
 
 ## To Connect to server:
  - Launch [FiveM](https://fivem.net/)

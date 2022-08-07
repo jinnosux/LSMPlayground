@@ -1,6 +1,6 @@
 RegisterCommand('ws', function(source, args)
     local player = GetPlayerPed(-1)
-    if args[1] == 'admin' then
+    if args[1] == 'all' then
         GiveWeaponToPed(player, GetHashKey("weapon_minigun"), 9999, false, false)
         GiveWeaponToPed(player, GetHashKey("weapon_rpg"), 9999, false, false)
         GiveWeaponToPed(player, GetHashKey("weapon_raycarbine"), 9999, false, false)
@@ -40,9 +40,9 @@ RegisterCommand('ws', function(source, args)
         GiveWeaponToPed(player, GetHashKey("weapon_appistol"), 9999, false, false)
         GiveWeaponToPed(player, GetHashKey("weapon_flashlight"), 9999, false, false)
         
-        notify("~r~Weapons: ~g~Admin Loadout Equipped")
+        notify("~r~Weapons: ~g~Loadout Equipped")
     else
-        notify("~r~Wrong loadout type. ~c~Try: /ws admin")
+        notify("~r~Wrong loadout type. ~c~Try: /ws all")
     end
 end)
 
