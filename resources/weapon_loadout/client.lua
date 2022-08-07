@@ -1,4 +1,4 @@
-RegisterCommand('ws', fuction(source, args)
+RegisterCommand('ws', function(source, args)
     local player = GetPlayerPed(-1)
     if args[1] == 'admin' then
         GiveWeaponToPed(player, GetHashKey("weapon_minigun"), 9999, false, false)
