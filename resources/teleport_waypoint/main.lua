@@ -20,5 +20,6 @@ RegisterCommand('tpw', function(source, args)
         SetNotificationTextEntry("STRING")
         AddTextComponentString(text)
         DrawNotification(false, false)
+    end
 
 end)
