@@ -5,7 +5,7 @@ RegisterCommand('tpw', function(source, args)
     local playerName = GetPlayerName(src)
 
     if DoesBlipExist(waypoint) then
-        SetEntityCoords(PlayerPedId(), GetBlipInfoIdCoord(waypoint), GetGroundZFor_3dCoord(x, y, z, 2* groundZ, false)) -- 'false' Means you don't teleport directly in the water.
+        SetEntityCoords(PlayerPedId(), GetBlipInfoIdCoord(waypoint), GetGroundZFor_3dCoord(x, y, z, float* groundZ, false)) -- 'false' Means you don't teleport directly in the water.
         notify("You have just been teleported.")
     
     else
