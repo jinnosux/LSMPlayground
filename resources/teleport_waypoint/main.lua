@@ -5,7 +5,7 @@ RegisterCommand('tpw', function(source, args)
     local playerName = GetPlayerName(src)
 
     if DoesBlipExist(waypoint) then
-        SetEntityCoords(PlayerPedId(), GetBlipInfoIdCoord(waypoint))
+        SetEntityCoords(PlayerPedId(), GetBlipInfoIdCoord(waypoint), GetGroundZFor_3dCoord(x, y, z, &groundZ, false))
     
     else
         TriggerEvent('chat:addMessage', {
