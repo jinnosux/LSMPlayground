@@ -21,6 +21,14 @@ end)
 RegisterNetEvent('ch_teleporter:getplayer', function(targetId)
     local playerId  = source
     local playerPed = GetPlayerPed(playerId)
+
+    if targetPed <= 0 then
+        TriggerClientEvent('chat:addMessage', targetId, {
+            args = { 'Player ' .. playerId .. ' doesn\'t seem to exist.', },
+        })
+        return
+    end
+
     local playerPos = GetEntityCoords(playerPed)
 
     TriggerClientEvent('ch_teleporter:teleport', targetId, playerPos)
