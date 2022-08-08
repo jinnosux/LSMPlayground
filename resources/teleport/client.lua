@@ -1,5 +1,5 @@
 -- Command to go to another player
-RegisterCommand('tp', function(source, args)
+RegisterCommand('tp', function(_, args)
     local targetId = args[1]
 
     if not targetId then
@@ -13,7 +13,7 @@ RegisterCommand('tp', function(source, args)
 end)
 
 -- Command to bring a player to us
-RegisterCommand('getplayer', function(source, args)
+RegisterCommand('getplayer', function(_, args)
     local targetId = args[1]
 
     if not targetId then
@@ -24,4 +24,11 @@ RegisterCommand('getplayer', function(source, args)
     end
 
     TriggerServerEvent('ch_teleporter:getplayer', targetId)
+end)
+
+-- An event that teleports us to a specific location
+RegisterNetEvent('ch_teleporter:teleport', function(targetCoordinates)
+    local playerPed = PlayerPedId()
+
+    SetEntityCoords(playerPed, targetCoordinates)
 end)
