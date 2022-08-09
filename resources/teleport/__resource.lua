@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Fetu'
-description """/tp <player> [target] - Forcefully teleports to a player, or, if specified, a player to a target. /return <player> - Returns a player to their previous position after teleport."""
+description 'Teleport script'
 
 version '1.0.0'
 
