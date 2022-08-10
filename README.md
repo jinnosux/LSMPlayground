@@ -15,6 +15,7 @@ Our goal is to practice coding and other aspects of running a FiveM server<br />
 ## Resources:
 ### Our Own:
 - CarComand : simple lua script to spawn cars (usage: /car [car name])
+- headtag : players nickname and ID above
 - help : moviemaker's commands script - WIP
 - teleport : Fetu's teleport script - WIP
 - weapon_loadout : script to give player all weapons (usage: /ws all)
