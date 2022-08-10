@@ -21,12 +21,12 @@ Our goal is to practice coding and other aspects of running a FiveM server<br />
 - weapon_loadout : script to give player all weapons (usage: /ws all)
 
 ### Others:
-- custom_cars : about ~130 random car models
-- hologramspeed : best speedometer in the world. a bit buggy though, needs further fixing
-- [nos](resources/nos/README.md) : Nitrous Oxide Whippits needs baloons for consuming
-- playerblip : visible blips of all online players on minimap/map
-- playerlist : list of all players online
-- vMenu : vmenu mod, only changes being to `vMenu/config/addons.json` to load custom car models
+- [custom_cars](https://github.com/PLOKMJNB/FiveM-Civ-Car-Pack) : about ~130 random car models (removed some of the heavy models)
+- [hologramspeed](https://github.com/kasuganosoras/hologramspeed) : best speedometer in the world. a bit buggy though, needs further fixing
+- [nos](resources/nos/README.md) : Nitrous Oxide Whippits needs baloons for consuming. 10/10 mod
+- [playerblip](https://github.com/ItsAras/FiveM_Player_Blips) : visible blips of all online players on minimap/map. needs hp/armor
+- [playerlist](https://github.com/TGRHavoc/fivem-playerlist) : list of all players online. needs further visual work
+- [vMenu](https://github.com/TomGrobbe/vMenu) : vmenu mod, only changes being to `vMenu/config/addons.json` to load custom car models
 
 ## When Connected:
  - press [M] to access vMenu (and spawn cars/peds, teleport, change weather etc)
