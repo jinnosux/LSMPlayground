@@ -1,5 +1,3 @@
--- FiveM Client Script By Dawson G.
-
 local showPlayerBlips = false
 local ignorePlayerNameDistance = false
 local disPlayerNames = 20
@@ -47,12 +45,12 @@ Citizen.CreateThread(function()
 
                 if(ignorePlayerNameDistance) then
                     -- DrawText3D(x2, y2, z2+1, GetPlayerServerId(id) .. " | " .. string.sub(GetPlayerName(id), 1, 15))
-		    DrawText3D(x2, y2, z2+1, " [" .. GetPlayerServerId(id) .. "] " .. string.sub(GetPlayerName(id), 1, 15))
+		            DrawText3D(x2, y2, z2+1, " [" .. GetPlayerServerId(id) .. "] " .. string.sub(GetPlayerName(id), 1, 15))
                 end
 
                 if ((distance < disPlayerNames)) then
                     if not (ignorePlayerNameDistance) then
-			DrawText3D(x2, y2, z2+1, " [" .. GetPlayerServerId(id) .. "] " .. string.sub(GetPlayerName(id), 1, 15))
+			            DrawText3D(x2, y2, z2+1, " [" .. GetPlayerServerId(id) .. "] " .. string.sub(GetPlayerName(id), 1, 15))
                         -- DrawText3D(x2, y2, z2+1, GetPlayerServerId(id) .. " | " .. string.sub(GetPlayerName(id), 1, 15))
                     end
                 end  
