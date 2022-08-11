@@ -1,11 +1,11 @@
 # Ideas Checklist / Wishlist
 TO DO:
-- [x] Cayo Perico island - Done (Jinno)
-- [x] Weapon Loadout (/ws all) - Done (Fetu)
-- [x] Update to newest DLC version (jinno)
-- [ ] Make All .lua script manifests versions consistent WIP (jinno)
-- [ ] CnR:NG like commands (/me /fart /cry...) - WIP (moviEmaker)
-- [ ] Teleport command (/tp [player nickname or ID]) - WIP (Fetu)
+- [x] Cayo Perico island - Jinno
+- [x] Weapon Loadout (/ws all) - Fetu
+- [x] Update to newest DLC version - jinno
+- [ ] Make All .lua script manifests versions consistent - jinno
+- [ ] CnR:NG like commands (/me /fart /cry...) - moviEmaker
+- [ ] Teleport command (/tp [player nickname or ID]) - Fetu
 
 
 
